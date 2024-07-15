@@ -36,3 +36,12 @@ async def hello():
 @app.get("/hello2")
 async def hello2():
     return 'Hello2'
+
+
+@app.get("/hello222")
+async def hell222o():
+    return 'Hello2222'
+
+@app.get("/hello123")
+async def hello123():
+    return 'Hello123213'
