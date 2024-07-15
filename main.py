@@ -32,3 +32,7 @@ async def update_item(item_id: int, item: Item):
 @app.get("/hello")
 async def hello():
     return 'Hello'
+
+@app.get("/hello2")
+async def hello2():
+    return 'Hello2'
